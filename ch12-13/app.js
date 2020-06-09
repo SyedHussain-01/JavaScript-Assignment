@@ -1,66 +1,15 @@
 // QUESTION#1
-// var inputChar = prompt("Enter any character")
-// var A = 65
-// var B = 66
-// var C = 67
-// var D = 68
-// var E = 69
-// var F = 70
-// var G = 71
-// var H = 72
-// var I = 73
-// var J = 74
-// var K = 75
-// var L = 76
-// var M = 77
-// var N = 78
-// var O = 89
-// var P = 80
-// var Q = 81
-// var R = 82
-// var S = 83
-// var T = 84
-// var U = 85
-// var V = 86
-// var W = 87
-// var X = 88
-// var Y = 89
-// var Z = 90
-// var a = 97
-// var b = 98
-// var c = 99
-// var d = 100
-// var e = 101
-// var f = 102
-// var g = 103
-// var h = 104
-// var i = 105
-// var j = 106
-// var k = 107
-// var l = 108
-// var m = 109
-// var n = 110
-// var o = 111
-// var p = 112
-// var q = 113
-// var r = 114
-// var s = 115
-// var t = 116
-// var u = 117
-// var v = 118
-// var w = 119
-// var x = 120
-// var y = 121
-// var z = 122
-// if((inputChar >= "65") && (inputChar <= "90") ){
-//     alert("UpperCase Character")
-// }
-// else if((inputChar >= "97") && (inputChar <= "122") ){
-//     alert("LowerCase Character")
-// }
-// else{
-//     alert("Digits")
-// }
+
+var inputChar = prompt("Enter any character")
+if((inputChar >= "A") && (inputChar <= "Z") ){
+    alert("UpperCase Character")
+}
+else if((inputChar >= "a") && (inputChar <= "z") ){
+    alert("LowerCase Character")
+}
+else{
+    alert("Digits")
+}
 
 // QUESTION#1
 
