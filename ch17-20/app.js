@@ -55,13 +55,47 @@
 // }
 // QUESTION#6
 
+// QUESTION#7
+// var items =  ["cake", "apple pie", "cookie", "chips", "patties"];
+// var search = prompt("item to order?");
+// let index = items.indexOf(search)
+// if(index== -1){
+//     alert(search + "not found")
+// }
+// else(
+//     alert(search + " is available at index " + index + " in our bakery" )
+// )
+// QUESTION#7
 
 
-// QUESTION#7
-// QUESTION#7
 // QUESTION#8
+// var A = [24, 53, 78, 91, 12];
+// for(i = 0 ;i <= A.length ; i++){
+// var small = A[i];
+
+// for(i = 1 ;i <= A.length ; i++){
+//     if(small>A[i]){
+// var smallest=A[i];
+// alert(smallest)
+//     }    
+//         }
+
+//     }
 // QUESTION#8
+
 // QUESTION#9
+// B = [24, 53, 78, 91, 12];
+// for(i = 0 ;i <= B.length ; i++){
+//     var large = B[i];
+    
+//     for(i = 1 ;i <= B.length ; i++){
+//         if(large<B[i]){
+//     var largest=B[i];
+//     alert(largest)
+//         }    
+//             }
+    
+//         }
 // QUESTION#9
 
 
