@@ -37,6 +37,7 @@
 // document.write("<br>")
 // document.write("<br>")
 // // 1.QUESTION#1
+
 // // 2.QUESTION#2
 // document.write("<br>")
 // var y = 2
@@ -55,12 +56,14 @@
 // // 1 - 0 + 1 + 1 = 3
 // document.write("Result : " + c) 
 // // 2.QUESTION#2
+
 // // 3.QUESTION#3
 // document.write("<br>")
 // document.write("<br>")
 // // var userName = prompt("Your Name?","Enter Your Name")
 // document.write("Hey " + userName + "!" + " Welcome to our Webpage!") 
 // // 3.QUESTION#3
+
 // // 4.QUESTION#4
 // document.write("<br>")
 // document.write("<br>")
@@ -96,6 +99,7 @@
 // var secondNumber = ++n
 // document.write(firstNumber + "*10 " + " = " + firstNumber*secondNumber)
 // 4.QUESTION#4
+
 // 5.QUESTION#5
 document.write("<br>")
 document.write("<br>")

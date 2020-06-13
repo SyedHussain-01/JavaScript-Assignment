@@ -1,8 +1,11 @@
+// QUESTION#1
 var x = 10,y = 12, z = 15
 alert(x)
 alert(y)
 alert(z)
+// QUESTION#1
 
+// QUESTION#2
 
 // 5 legal
 
@@ -25,7 +28,12 @@ alert(myName)
 // var alert = "null"
 // var 44 = "null"
 
+// QUESTION#2
+
+
+// QUESTION#3
 document.write(" Variable names can only contain $ , Numbers , _ and Letters . " + "For example $my_1stVariable " + "<br>" + 
 " Variables must begin with a $ , _  or letter. For example $name, _name or name " + "<br>" + 
 " Variable names are case sensitive" + "<br>" + 
 " Variable names should not be JS keywords")
+// QUESTION#3
