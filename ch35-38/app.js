@@ -61,3 +61,26 @@
 
 // QUESTION#5
 
+// QUESTION#6
+
+// function factorial(num){
+//     if(num === 0 || num === 1){
+//     return 1;
+//     }
+
+//     else{
+//         for(var i = num-1; i >= 1; i--){
+//     num = num * i;}
+//     return num;
+//     }
+
+// }   
+//     alert(factorial(prompt("Enter Number")));
+
+// QUESTION#6
+
+
+
+
+
+
