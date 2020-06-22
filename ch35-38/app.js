@@ -67,20 +67,77 @@
 //     if(num === 0 || num === 1){
 //     return 1;
 //     }
-
 //     else{
 //         for(var i = num-1; i >= 1; i--){
 //     num = num * i;}
 //     return num;
 //     }
-
 // }   
 //     alert(factorial(prompt("Enter Number")));
 
 // QUESTION#6
 
+// QUESTION#7
+
+// function counting(){
+//     var startNumber = prompt("Enter start number");
+//     var endNumber =prompt("Enter end number");
+//    for(i=startNumber; i<=endNumber ;i++){
+//        document.write(i + "<br>")
+
+
+//    } 
+// }
+// counting();
+
+// QUESTION#7
+
+// QUESTION#8
+
+// function calculateHypontaneous(base,perp){
+// var hyp = base + perp
+// function square(sqr){return sqr*sqr}
+// hyp = Math.sqrt(square(base)+square(perp))
+// alert(hyp)
+// }
+// var hypontaneous = calculateHypontaneous(prompt("Enter Base"),prompt("Enter Perpendicular"))
+
+
+// QUESTION#8
+
+// QUESTION#9
+
+// function areaOfTriangle(width,height){
+//     var area = width * height 
+//     alert(area)
+// }
+// var a = areaOfTriangle(prompt("Enter Width"),prompt("Enter Height"))
+
+// QUESTION#9
+
+// QUESTION#10
+
+// function pallindrome(p){
+//     var check = ""
+// for(i = p.length-1 ; i >= 0 ; i-- ){
+// check += p[i]
+// }
+// if(p === check){
+//     alert("Pallindrome")
+// }
+// }
+// pallindrome(prompt("Enter any word"));
+
+// QUESTION#10
+
+// QUESTION#11
 
 
 
 
+
+
+
+
+// QUESTION#11
 
