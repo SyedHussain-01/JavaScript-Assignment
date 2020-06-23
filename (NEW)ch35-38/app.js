@@ -132,12 +132,77 @@
 
 // QUESTION#11
 
+// function convertTitleCase(string){
+
+// var splitString = string.split(" ");
+// var titleCase = [];
+// for(var i = 0 ; i < splitString.length ; i++){     
+// titleCase.push((splitString[i])[0].toUpperCase() + splitString[i].slice(1));
+//   }
+// return titleCase.join(" ");
 
 
-
-
-
-
+// }
+// alert(convertTitleCase(prompt("Enter a String")))
 
 // QUESTION#11
 
+// QUESTION#12
+
+// function longestWord(string)
+// {
+// var splitString = string.split(" ")
+// var length1 = splitString[0].length
+// var length2 = splitString[1].length
+// var length3 = splitString[2].length
+// var box = [length1,length2,length3]
+// var maxim = Math.max(...box)
+// if(splitString[0].length === maxim){
+//     alert(splitString[0])
+// }
+// else if(splitString[1].length === maxim){
+//     alert(splitString[1])
+// }
+// else if(splitString[2].length === maxim){
+//     alert(splitString[2])
+// }
+
+
+// }
+
+// longestWord("Web Development Course");
+
+// QUESTION#12
+
+// QUESTION#13
+
+// function wordLength(letter,word){
+// var result = 0;
+// for(var i=0 ; i<word.length ; i++){
+//     if(word.charAt(i) === letter){
+//         result += 1 ;
+       
+//         }
+// }
+
+// return result;
+
+// }
+// alert(wordLength(prompt("Enter letter"),prompt("Enter word")));
+
+// QUESTION#13
+
+// QUESTION#14
+
+
+
+
+
+
+
+
+
+
+
+
+// QUESTION#14
