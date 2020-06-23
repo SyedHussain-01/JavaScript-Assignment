@@ -1,22 +1,22 @@
 // QUESTION#1
 
-// function dateAndTime() {
-//     var todayDate = new Date(); 
-//     alert(todayDate);
+// function dateAndTime(todayDate) {
+//      todayDate = new Date(); 
+    
+//      return todayDate;
 // }
 
-// dateAndTime();
+// alert(dateAndTime());
 
 // QUESTION#1
 
 // QUESTION#2
 
-// function greet(){
-//     var firstName = prompt("Enter Your First Name");
-//     var secondName = prompt("Enter Your Second Name");
-//     alert("Hi! " + firstName + " " + secondName);
+// function greet(firstName,secondName){
+    
+//    return ("Hi! " + firstName + " " + secondName);
 // }
-// greet();
+// alert(greet(prompt("Enter First Name"),prompt("Enter Second Name")))
 
 // QUESTION#2
 
@@ -27,12 +27,11 @@
 // }
 // addition(prompt("Enter First Number"),prompt("Enter Second Number"));
 
-
 // QUESTION#3
 
 // QUESTION#4
 
-// function calculator(x=prompt("Enter First Number"),opr=prompt("Enter Operator"),z=prompt("Enter Second Number")){
+// function calculator(x,opr,z){
 //     if(opr === "+"){
 //         return alert ( (+x)+(+z) )
 //     }
@@ -48,7 +47,7 @@
 //     else{return alert("invalid operator!")}
 
 // }
-// calculator();
+// calculator(prompt("Enter First Number"),prompt("Enter Operator"),prompt("Enter Second Number"));
 
 // QUESTION#4
 
@@ -79,16 +78,15 @@
 
 // QUESTION#7
 
-// function counting(){
-//     var startNumber = prompt("Enter start number");
-//     var endNumber =prompt("Enter end number");
-//    for(i=startNumber; i<=endNumber ;i++){
-//        document.write(i + "<br>")
-
+// function counting(startNumber,endNumber){
+    
+//    for(var i=startNumber; i<=endNumber ;i++){
+       
+//     document.write(i + "<br>") ;
 
 //    } 
 // }
-// counting();
+// counting(prompt("Enter start number"),prompt("Enter end number"));
 
 // QUESTION#7
 
@@ -194,15 +192,16 @@
 
 // QUESTION#14
 
+//  var circumference;
+//  var area;
+// function calcCircumference(radius){
+//    circumference = (2)*(3.142)*(radius);
+//    area = (3.142)*(Math.pow(radius,2))
 
-
-
-
-
-
-
-
-
-
+//     return ("The circumference is " + circumference + "\n" + "The area is " + area);
+// }
+// alert(calcCircumference(prompt("Enter the Radius of the Circle")))
 
 // QUESTION#14
+
+
