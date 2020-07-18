@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .visible {
+            visibility: visible;
+        }
+
+        .hide {
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- QUESTION#1 -->
+
+    <div class="container-fluid pt-2">
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img class="img-thumbnail" src="10.jpg" alt="img1" width="220px" height="200px"
+                        onclick="openModal('10.jpg')" style="cursor: pointer;">
+                </div>
+                <div class="col-sm-3">
+                    <img class="img-thumbnail" src="12.jpg" alt="img2" width="220px" height="200px"
+                        onclick="openModal('12.jpg')" style="cursor: pointer;">
+                </div>
+                <div class="col-sm-3">
+                    <img class="img-thumbnail" src="13.jpg" alt="img3" width="220px" height="200px"
+                        onclick="openModal('13.jpg')" style="cursor: pointer;">
+                </div>
+                <div class="col-sm-3">
+                    <img class="img-thumbnail" src="4.png" alt="img4" width="220px" height="200px"
+                        onclick="openModal('4.png')" style="cursor: pointer;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex justify-content-center p-2" id="modal"
+        style="visibility: hidden;background-color: black;">
+        <span onclick="hide()"
+            style="color:white;position: fixed;top: 20px;left:30px ;cursor: pointer;font-size: larger;">X</span>
+        <img src="" alt="" id="modalimg" class="img-fluid">
+    </div>
+
+    <!-- QUESTION#1 -->
+
+    <!-- QUESTION#2 -->
+
+
+    <div class="container-fluid mt-3">
+        <div class="container">
+            <p id="para" style="font-size: 30px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
+                reiciendis veniam sapiente, ad assumenda
+                ea vitae temporibus molestiae harum dignissimos itaque officiis
+                provident quia voluptatem magni id laboriosam? Quae sed quos, non aut
+                beatae sapiente vel vero alias eos sequi consectetur officiis
+                adipisci tempora soluta recusandae voluptatem earum asperiores magni!</p>
+            <center>
+                <button onclick="paraZoomOut()" class="m-2">Zoom Out</button><button class="m-2"
+                    onclick="paraZoomIn()">Zoom In</button>
+            </center>
+        </div>
+    </div>
+
+
+    <!-- QUESTION#2 -->
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+<script src="app.js"></script>
+
+</html>
